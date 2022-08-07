@@ -51,7 +51,10 @@ const Food = () => {
         {data.map((food) => {
           return (
             <>
-              <div className={`card cursor-pointer rounded-none card-compact `}>
+              <div
+                key={food.id}
+                className={`card cursor-pointer rounded-none card-compact `}
+              >
                 <figure className={`relative  ${Styles.ImageContainer}`}>
                   <Image
                     className=" hover:opacity-40 hover:scale-105 transition-all ease-in-out"
