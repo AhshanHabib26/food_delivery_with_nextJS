@@ -25,7 +25,7 @@ const Banner = () => {
         <div className="card">
           <div className="card-body">
             <Image
-              width={450}
+              width={400}
               height={450}
               alt="Banner"
               src="/FoodBanner.png"
