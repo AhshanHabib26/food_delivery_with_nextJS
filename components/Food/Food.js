@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Styles from "../../styles/Food.module.css";
+import { BiRightArrowAlt } from "react-icons/bi";
+
 const data = [
   {
     id: "1",
@@ -50,9 +52,9 @@ const Food = () => {
           return (
             <>
               <div className={`card cursor-pointer rounded-none card-compact `}>
-                <figure className={ `relative  ${Styles.ImageContainer}` }>
+                <figure className={`relative  ${Styles.ImageContainer}`}>
                   <Image
-                  className=" hover:opacity-40 hover:scale-105 transition-all ease-in-out"
+                    className=" hover:opacity-40 hover:scale-105 transition-all ease-in-out"
                     src={food.image}
                     width={400}
                     height={250}
@@ -69,6 +71,12 @@ const Food = () => {
             </>
           );
         })}
+      </div>
+      <div className=" cursor-pointer my-8 flex  items-center justify-center bg-slate-800 w-[180px] h-[55px] mx-auto rounded-full ">
+        <h1 className=" text-white">Explore More</h1>
+        <p className=" ml-2">
+          <BiRightArrowAlt size="22" color="#fff" />
+        </p>
       </div>
     </div>
   );
