@@ -1,0 +1,18 @@
+.FoodPrice {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ff9888;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 8px;
+  display: none;
+}
+
+.ImageContainer:hover .FoodPrice{
+    display: block;
+
+}
