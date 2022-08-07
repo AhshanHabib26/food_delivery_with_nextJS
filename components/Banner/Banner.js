@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <div className=" bg-purple-100">
+    <div className=" bg-green-100">
       <div className=" grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="card">
           <div className="card-body mt-10">

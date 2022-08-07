@@ -3,7 +3,7 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-purple-100">
+      <div className="navbar bg-green-100">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">
