@@ -4,6 +4,7 @@ import Filtar from "../components/Filtar/Filtar";
 import Food from "../components/Food/Food";
 import GetOffer from "../components/GetOffer/GetOffer";
 import Navbar from "../components/Navbar/Navbar";
+import Offer from "../components/Offer/Offer";
 import WeCare from "../components/WeCare/WeCare";
 
 export default function Home() {
@@ -15,7 +16,8 @@ export default function Home() {
       <Filtar />
       <WeCare />
       <Delivery />
-      <GetOffer/>
+      <GetOffer />
+      <Offer />
     </div>
   );
 }
