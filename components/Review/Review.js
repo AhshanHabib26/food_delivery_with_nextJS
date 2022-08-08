@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const Review = () => {
   return (
-    <div className=" my-20">
+    <div className=" mt-20">
       <p className=" text-center font-extrabold text-lg text-red-500">
         Reviews
       </p>

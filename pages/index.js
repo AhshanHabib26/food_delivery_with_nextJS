@@ -1,3 +1,4 @@
+import AppDownload from "../components/AppDownload/AppDownload";
 import Banner from "../components/Banner/Banner";
 import Delivery from "../components/Delivery/Delivery";
 import Filtar from "../components/Filtar/Filtar";
@@ -20,6 +21,7 @@ export default function Home() {
       <GetOffer />
       <Offer />
       <Review/>
+      <AppDownload/>
     </div>
   );
 }
