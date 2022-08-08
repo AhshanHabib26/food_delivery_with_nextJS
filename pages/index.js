@@ -5,6 +5,7 @@ import Food from "../components/Food/Food";
 import GetOffer from "../components/GetOffer/GetOffer";
 import Navbar from "../components/Navbar/Navbar";
 import Offer from "../components/Offer/Offer";
+import Review from "../components/Review/Review";
 import WeCare from "../components/WeCare/WeCare";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Delivery />
       <GetOffer />
       <Offer />
+      <Review/>
     </div>
   );
 }
