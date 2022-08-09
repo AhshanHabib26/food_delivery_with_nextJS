@@ -7,6 +7,7 @@ import GetOffer from "../components/GetOffer/GetOffer";
 import Navbar from "../components/Navbar/Navbar";
 import Offer from "../components/Offer/Offer";
 import Review from "../components/Review/Review";
+import Subscribe from "../components/Subscribe/Subscribe";
 import WeCare from "../components/WeCare/WeCare";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <Offer />
       <Review/>
       <AppDownload/>
+      <Subscribe/>
     </div>
   );
 }
