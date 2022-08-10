@@ -1,5 +1,6 @@
 import AppDownload from "../components/AppDownload/AppDownload";
 import Banner from "../components/Banner/Banner";
+import Blog from "../components/Blog/Blog";
 import Delivery from "../components/Delivery/Delivery";
 import Filtar from "../components/Filtar/Filtar";
 import Food from "../components/Food/Food";
@@ -21,9 +22,10 @@ export default function Home() {
       <Delivery />
       <GetOffer />
       <Offer />
-      <Review/>
-      <AppDownload/>
-      <Subscribe/>
+      <Review />
+      <AppDownload />
+      <Subscribe />
+      <Blog />
     </div>
   );
 }
