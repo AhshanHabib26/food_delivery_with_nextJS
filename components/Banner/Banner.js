@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+
 const Banner = () => {
   return (
     <div className=" bg-green-100">
@@ -18,11 +19,19 @@ const Banner = () => {
                 placeholder="Enter Your Email, We Contact You!"
                 className="input input-bordered outline-0 rounded-l-md rounded-none w-full max-w-xs"
               />
-              <button className="btn rounded-r-md rounded-none bg-gray-800">Buy Now</button>
+              <button className="btn rounded-r-md rounded-none bg-gray-800">
+                Buy Now
+              </button>
             </div>
           </div>
         </div>
-        <div className="card">
+        <div
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="card"
+        >
           <div className="card-body">
             <Image
               width={400}
