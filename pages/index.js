@@ -1,9 +1,11 @@
 import AppDownload from "../components/AppDownload/AppDownload";
 import Banner from "../components/Banner/Banner";
 import Blog from "../components/Blog/Blog";
+import ContactUs from "../components/ContactUs/ContactUs";
 import Delivery from "../components/Delivery/Delivery";
 import Filtar from "../components/Filtar/Filtar";
 import Food from "../components/Food/Food";
+import Footer from "../components/Footer/Footer";
 import GetOffer from "../components/GetOffer/GetOffer";
 import Navbar from "../components/Navbar/Navbar";
 import Offer from "../components/Offer/Offer";
@@ -26,6 +28,8 @@ export default function Home() {
       <AppDownload />
       <Subscribe />
       <Blog />
+      <ContactUs />
+      <Footer />
     </div>
   );
 }

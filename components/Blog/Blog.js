@@ -6,7 +6,7 @@ const Blog = () => {
       <h1 className=" text-3xl text-gray-800 text-center my-10 font-semibold">
         Recent Blogs
       </h1>
-      <div className="blogContainer grid grid-cols-1 lg:grid-cols-3 gap-5 max-w-6xl mx-auto">
+      <div className="blogContainer grid grid-cols-1 lg:grid-cols-3 gap-5 max-w-6xl lg:mx-auto mx-5">
         <div>
           <div className="card w-full bg-base-100 image-full hover:scale-105 transition-all ease-in-out hover:shadow-2xl">
             <figure>
