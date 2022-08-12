@@ -78,7 +78,7 @@ const Food = () => {
           );
         })}
       </div>
-      <div className="">
+      <div className=" mt-5">
         <div className=" cursor-pointer flex  items-center justify-center bg-slate-800 w-[180px] h-[55px] mx-auto rounded-full ">
           <h1 className=" text-white">Explore More</h1>
           <p className=" ml-2">
