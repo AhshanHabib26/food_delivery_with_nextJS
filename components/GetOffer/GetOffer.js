@@ -2,7 +2,7 @@ import Styles from "../../styles/GetOffer.module.css";
 
 const GetOffer = () => {
   return (
-    <div className=" bg-white py-12">
+    <div className="">
       <div className={Styles.GetOfferContainer}>
         <div className=" py-28 text-center">
           <h1 className=" select-none text-2xl lg:text-5xl font-semibold mb-2 text-white">Stay Informed About Special Offers</h1>

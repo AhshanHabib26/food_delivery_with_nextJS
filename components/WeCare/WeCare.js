@@ -2,7 +2,7 @@ import Styles from "../../styles/WeCare.module.css";
 
 const WeCare = () => {
   return (
-    <div className=" py-20">
+    <div className=" bg-white">
       <div className={Styles.WcContainer}>
         <h1
           data-aos="fade-down"
