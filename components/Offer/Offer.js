@@ -16,7 +16,7 @@ const Offer = () => {
           <div>
             <h1 className="text-5xl text-gray-800 font-bold mb-6">Weekly Hot Deals!</h1>
             <p className=" text-2xl text-gray-800 font-bold">Thai Fried Chicken Burger</p>
-            <p className=" text-xl font-semibold mb-3">
+            <p className=" text-xl text-gray-800 font-semibold mb-3">
               Price: <span className=" text-red-500">$ 80</span>
             </p>
             <div>
