@@ -3,8 +3,8 @@ import Styles from '../../styles/Blog.module.css'
 
 const Blog = () => {
   return (
-    <div id="blogs" className=" bg-white mb-14">
-      <h1 className=" text-3xl text-gray-800 text-center my-10 font-semibold">
+    <div id="blogs" className=" bg-white py-10">
+      <h1 className=" text-3xl text-gray-800 mb-8 text-center font-semibold">
         Recent Blogs
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mx-auto max-w-6xl">
