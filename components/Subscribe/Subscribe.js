@@ -3,7 +3,7 @@ import { FaEnvelopeOpenText } from "react-icons/fa";
 const Subscribe = () => {
   return (
     <div className=" bg-gray-800 my-8 py-20">
-      <div className=" flex items-center justify-around  flex-col lg:flex-row">
+      <div data-aos="fade-up" data-aos-duration="3000" className=" flex items-center justify-around  flex-col lg:flex-row">
         <div className=" flex items-center justify-between flex-col lg:flex-row text-center lg:text-left mb-6 lg:mb-0">
           <FaEnvelopeOpenText color="#fff" size="52" />
           <div className=" text-white ml-4">

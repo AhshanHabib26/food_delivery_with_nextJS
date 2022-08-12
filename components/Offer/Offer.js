@@ -4,12 +4,12 @@ import { GiNotebook } from "react-icons/gi";
 const Offer = () => {
   return (
     <div>
-      <div className="hero">
+      <div data-aos="fade-up" data-aos-duration="3000" className="hero">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <Image
             className=" rounded-xl shadow-2xl"
             src="/Burger.png"
-            width={520}
+            width={550}
             height={450}
             alt="Burger"
           />

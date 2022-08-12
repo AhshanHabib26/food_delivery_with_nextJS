@@ -4,12 +4,12 @@ import {BsApple} from 'react-icons/bs'
 
 const AppDownload = () => {
   return (
-    <div className=" max-w-5xl mx-auto px-4 lg:px-0 my-5">
+    <div id="our_apps" className=" max-w-5xl mx-auto px-4 lg:px-0 my-5">
       <div className="card lg:card-side">
-        <figure>
+        <figure data-aos="fade-right" data-aos-duration="2000">
           <Image src="/Order.png" width={450} height={450} alt="Food" />
         </figure>
-        <div className="card-body">
+        <div data-aos="fade-left" data-aos-duration="2000" className="card-body">
           <h2 className=" text-2xl lg:text-4xl font-semibold">
             Get More With <span className=" text-red-500">Our Application</span>
           </h2>

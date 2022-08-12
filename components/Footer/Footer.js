@@ -4,12 +4,20 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer footer-center p-10 bg-green-200 text-primary-content">
+      <footer className="footer footer-center p-10 bg-green-100 text-primary-content">
         <div>
           <Image src="/logo.png" width={220} height={60} alt="Logo" />
           <p className="font-bold text-gray-800">
-            Food Delivery With Next.JS <br />
-            Design & Develop By Ahshan Habib
+            Food Delivery Website With Next.JS <br />
+            Design & Develop By{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className=" text-red-500 hover:text-gray-600  transition-all ease-in-out"
+              href="https://www.linkedin.com/in/ahshanhabib26/"
+            >
+              Ahshan Habib
+            </a>
           </p>
           <p className=" text-gray-800">
             Copyright © 2022 - All right reserved

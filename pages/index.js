@@ -1,3 +1,4 @@
+import Head from "next/head";
 import AppDownload from "../components/AppDownload/AppDownload";
 import Banner from "../components/Banner/Banner";
 import Blog from "../components/Blog/Blog";
@@ -12,10 +13,15 @@ import Offer from "../components/Offer/Offer";
 import Review from "../components/Review/Review";
 import Subscribe from "../components/Subscribe/Subscribe";
 import WeCare from "../components/WeCare/WeCare";
+import ScrollToTop from "react-scroll-to-top";
 
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Food Delivery | Ahshan Habib</title>
+      </Head>
+
       <Navbar />
       <Banner />
       <Food />
@@ -30,6 +36,12 @@ export default function Home() {
       <Blog />
       <ContactUs />
       <Footer />
+      <ScrollToTop
+        smooth
+        color="#fff"
+        height="18"
+        style={{ backgroundColor: "#1F2937", paddingLeft: 5 }}
+      />
     </div>
   );
 }

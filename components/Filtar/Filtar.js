@@ -45,15 +45,20 @@ const data = [
 
 const Filtar = () => {
   return (
-    <div>
+    <div id="features" className=" my-20">
       <h1 className=" text-3xl text-gray-800 text-center my-10 font-semibold ">
         Our Best Food Collection
       </h1>
       <div>
-        <div className=" px-5 md:px-2 lg:px-0 grid grid-cols-2 md:grid-cols-3 gap-5 lg:grid-cols-4 max-w-5xl mx-auto">
+        <div className=" mx-5  grid grid-cols-2 md:grid-cols-3 gap-5 lg:grid-cols-4 max-w-5xl lg:mx-auto">
           {data.map((curElm) => {
             return (
-              <div key={curElm.id}>
+              <div
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                key={curElm.id}
+              >
                 <div className="">
                   <div className="card card-side border p-4 cursor-pointer hover:scale-105 transition-all ease-in-out  hover:shadow-xl">
                     <figure>

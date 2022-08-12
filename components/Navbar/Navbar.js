@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -27,19 +28,22 @@ const Navbar = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <a>Resturents</a>
+                <Link href="#resturents">Resturents</Link>
               </li>
               <li>
-                <a>Features</a>
+                <Link href="#features">Features</Link>
               </li>
               <li>
-                <a>Reviews</a>
+                <Link href="#reviews">Reviews</Link>
               </li>
               <li>
-                <a>Our Apps</a>
+                <Link href="#our_apps">Our Apps</Link>
+              </li>
+              <li>
+                <Link href="#blogs">Blogs</Link>
               </li>
             </ul>
           </div>
@@ -49,19 +53,22 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal p-0">
             <li>
-              <a >Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li>
-              <a>Resturents</a>
+              <Link href="#resturents">Resturents</Link>
             </li>
             <li>
-              <a>Features</a>
+              <Link href="#features">Features</Link>
             </li>
             <li>
-              <a>Reviews</a>
+              <Link href="#reviews">Reviews</Link>
             </li>
             <li>
-              <a>Our Apps</a>
+              <Link href="#our_apps">Our Apps</Link>
+            </li>
+            <li>
+              <Link href="#blogs">Blogs</Link>
             </li>
           </ul>
         </div>
@@ -75,10 +82,10 @@ const Navbar = () => {
               className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Item 1</a>
+                <a>Login</a>
               </li>
               <li>
-                <a>Item 2</a>
+                <a>Signup</a>
               </li>
             </ul>
           </div>

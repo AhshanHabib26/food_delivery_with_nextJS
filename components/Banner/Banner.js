@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-
 const Banner = () => {
   return (
     <div className=" bg-green-100">
@@ -25,15 +24,10 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div
-          data-aos="fade-left"
-          data-aos-anchor="#example-anchor"
-          data-aos-offset="500"
-          data-aos-duration="500"
-          className="card"
-        >
+        <div data-aos="fade-left" data-aos-duration="1500" className="card">
           <div className="card-body">
             <Image
+            className=" min-w-fitt"
               width={400}
               height={450}
               alt="Banner"

@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const Review = () => {
   return (
-    <div className=" mt-20 bg-green-100 py-5">
+    <div id="reviews" className=" mt-20 bg-green-100 py-5">
       <p className=" text-center font-extrabold text-lg text-red-500">
         Reviews
       </p>
@@ -26,7 +26,7 @@ const Review = () => {
         <SwiperSlide>
           <div className=" flex items-center justify-center flex-col">
             <Image src="/Quote.png" alt="Quote" width={40} height={40} />
-            <p className=" my-5 mx-5 max-w-5xl text-center text-lg">
+            <p className=" my-5 px-3 lg:px-0 max-w-lg lg:max-w-5xl text-center text-lg">
               The Food we had enjoyed at the time of dinner. It was really
               delicious taste with great quality, everything had unique taste
               which we had ordered, nice packaging and services from the
@@ -41,7 +41,7 @@ const Review = () => {
         <SwiperSlide>
           <div className=" flex items-center justify-center flex-col">
             <Image src="/Quote.png" alt="Quote" width={40} height={40} />
-            <p className=" my-5 mx-5 max-w-5xl text-center text-lg">
+            <p className=" my-5 px-3 lg:px-0 max-w-lg lg:max-w-5xl text-center text-lg">
               The Food we had enjoyed at the time of dinner. It was really
               delicious taste with great quality, everything had unique taste
               which we had ordered, nice packaging and services from the

@@ -43,15 +43,18 @@ const data = [
 
 const Food = () => {
   return (
-    <div>
+    <div id="resturents">
       <h1 className=" text-3xl text-gray-800 text-center my-10 font-semibold">
         Available Food Nearby Area
       </h1>
-      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl px-5 lg:px-0 mx-auto">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-4 lg:mx-auto">
         {data.map((food) => {
           return (
             <>
               <div
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-center"
+                data-aos-duration="1000"
                 key={food.id}
                 className={`card cursor-pointer rounded-none card-compact `}
               >
