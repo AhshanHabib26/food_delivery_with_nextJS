@@ -43,8 +43,8 @@ const data = [
 
 const Food = () => {
   return (
-    <div id="resturents" className=" bg-gray-50">
-      <h1 className=" text-3xl text-gray-800 text-center my-10 font-semibold">
+    <div id="resturents" className=" bg-white">
+      <h1 className=" text-3xl text-gray-800 text-center py-10 font-semibold">
         Available Food Nearby Area
       </h1>
       <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-4 lg:mx-auto">
@@ -78,11 +78,13 @@ const Food = () => {
           );
         })}
       </div>
-      <div className=" cursor-pointer my-8 flex  items-center justify-center bg-slate-800 w-[180px] h-[55px] mx-auto rounded-full ">
-        <h1 className=" text-white">Explore More</h1>
-        <p className=" ml-2">
-          <BiRightArrowAlt size="22" color="#fff" />
-        </p>
+      <div className="">
+        <div className=" cursor-pointer flex  items-center justify-center bg-slate-800 w-[180px] h-[55px] mx-auto rounded-full ">
+          <h1 className=" text-white">Explore More</h1>
+          <p className=" ml-2">
+            <BiRightArrowAlt size="22" color="#fff" />
+          </p>
+        </div>
       </div>
     </div>
   );
