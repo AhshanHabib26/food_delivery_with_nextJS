@@ -45,7 +45,7 @@ const data = [
 
 const Filtar = () => {
   return (
-    <div id="features" className=" my-20">
+    <div id="features" className=" bg-white my-20">
       <h1 className=" text-3xl text-gray-800 text-center my-10 font-semibold ">
         Our Best Food Collection
       </h1>
