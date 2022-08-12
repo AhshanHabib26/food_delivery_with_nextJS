@@ -4,8 +4,8 @@ import { BsApple } from "react-icons/bs";
 
 const AppDownload = () => {
   return (
-    <div className=" bg-white">
-      <div id="our_apps" className="  max-w-5xl mx-auto px-4 lg:px-0 my-5">
+    <div className=" bg-white py-8">
+      <div id="our_apps" className="  max-w-5xl mx-auto px-4 lg:px-0">
         <div className="card lg:card-side">
           <figure data-aos="fade-right" data-aos-duration="2000">
             <Image src="/Order.png" width={450} height={450} alt="Food" />
@@ -15,24 +15,24 @@ const AppDownload = () => {
             data-aos-duration="2000"
             className="card-body"
           >
-            <h2 className=" text-2xl lg:text-4xl font-semibold">
+            <h2 className=" text-2xl lg:text-4xl text-gray-800 font-semibold">
               Get More With{" "}
               <span className=" text-red-500">Our Application</span>
             </h2>
-            <p className=" flex-grow-0">
+            <p className=" text-gray-600 flex-grow-0">
               Connecting With our iOS & Android apps. Download from iTune & Play
               store
             </p>
             <div>
               <div>
                 <ul className="steps steps-vertical">
-                  <li className="step step-neutral font-semibold">
+                  <li  className="step step-neutral text-gray-800  font-semibold">
                     Follow Delivery Status{" "}
                   </li>
-                  <li className="step step-neutral font-semibold">
+                  <li className="step step-neutral text-gray-800 font-semibold">
                     Order From Any Location
                   </li>
-                  <li className="step step-neutral font-semibold">
+                  <li className="step step-neutral text-gray-800 font-semibold">
                     Get Important Updates
                   </li>
                 </ul>
