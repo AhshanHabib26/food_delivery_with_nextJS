@@ -25,7 +25,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex="0"
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu text-gray-800 menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
                 <Link href="/">Home</Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
           <Image alt="Logo" width={220} height={50} src="/logo.png" />
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal p-0">
+          <ul className="menu menu-horizontal p-0 text-gray-800">
             <li>
               <Link href="/">Home</Link>
             </li>
@@ -74,7 +74,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <div className="dropdown dropdown-end">
-            <label tabIndex="0" className="btn  bg-gray-700 m-1">
+            <label tabIndex="0" className="btn text-white  bg-gray-700 m-1">
               Join Now
             </label>
             <ul
