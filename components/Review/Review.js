@@ -26,7 +26,7 @@ const Review = () => {
         <SwiperSlide>
           <div className=" flex items-center justify-center flex-col">
             <Image src="/Quote.png" alt="Quote" width={40} height={40} />
-            <p className=" my-5 px-3 lg:px-0 max-w-lg lg:max-w-5xl text-center text-lg">
+            <p className=" text-gray-800 my-5 px-3 lg:px-0 max-w-lg lg:max-w-5xl text-center text-lg">
               The Food we had enjoyed at the time of dinner. It was really
               delicious taste with great quality, everything had unique taste
               which we had ordered, nice packaging and services from the
@@ -41,7 +41,7 @@ const Review = () => {
         <SwiperSlide>
           <div className=" flex items-center justify-center flex-col">
             <Image src="/Quote.png" alt="Quote" width={40} height={40} />
-            <p className=" my-5 px-3 lg:px-0 max-w-lg lg:max-w-5xl text-center text-lg">
+            <p className=" text-gray-800 my-5 px-3 lg:px-0 max-w-lg lg:max-w-5xl text-center text-lg">
               The Food we had enjoyed at the time of dinner. It was really
               delicious taste with great quality, everything had unique taste
               which we had ordered, nice packaging and services from the

@@ -3,7 +3,7 @@ import Styles from '../../styles/Blog.module.css'
 
 const Blog = () => {
   return (
-    <div id="blogs" className=" mb-14">
+    <div id="blogs" className=" bg-white mb-14">
       <h1 className=" text-3xl text-gray-800 text-center my-10 font-semibold">
         Recent Blogs
       </h1>
@@ -20,7 +20,7 @@ const Blog = () => {
                   alt="Blog"
                 />
                 <div className={Styles.BlogText}>
-                  <h1>Hubei Vegetable</h1>
+                  <h1 className=" text-gray-800">Hubei Vegetable</h1>
                 </div>
               </div>
             </div>
@@ -38,7 +38,7 @@ const Blog = () => {
                   alt="Blog"
                 />
                 <div className={Styles.BlogText}>
-                  <h1>Diced Chicken</h1>
+                  <h1 className=" text-gray-800">Diced Chicken</h1>
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@ const Blog = () => {
                   alt="Blog"
                 />
                 <div className={Styles.BlogText}>
-                  <h1>Honey Glazed Ginger</h1>
+                  <h1  className=" text-gray-800">Honey Glazed Ginger</h1>
                 </div>
               </div>
             </div>
