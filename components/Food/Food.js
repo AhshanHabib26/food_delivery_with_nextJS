@@ -44,7 +44,7 @@ const data = [
 const Food = () => {
   return (
     <div id="resturents">
-      <h1 className=" text-3xl text-gray-800 text-center my-10 font-semibold">
+      <h1 className=" text-3xl bg-base-100 text-gray-800 text-center my-10 font-semibold">
         Available Food Nearby Area
       </h1>
       <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-4 lg:mx-auto">
