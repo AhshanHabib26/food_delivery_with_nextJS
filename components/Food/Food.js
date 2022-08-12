@@ -43,7 +43,7 @@ const data = [
 
 const Food = () => {
   return (
-    <div id="resturents">
+    <div id="resturents" className=" bg-gray-50">
       <h1 className=" text-3xl text-gray-800 text-center my-10 font-semibold">
         Available Food Nearby Area
       </h1>
