@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Delivery = () => {
   return (
-    <div className=" max-w-5xl mx-auto px-4 lg:px-0">
+    <div className=" bg-white max-w-5xl mx-auto px-4 lg:px-0">
       <div  className="card lg:card-side">
         <figure data-aos="fade-right" data-aos-duration="2000">
           <Image src="/Delivery.png" width={450} height={450} alt="Food" />
