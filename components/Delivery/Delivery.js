@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Delivery = () => {
   return (
-    <div className=" bg-white">
+    <div className=" bg-white py-10">
       <div className=" max-w-5xl mx-auto px-4 lg:px-0">
         <div className="card lg:card-side">
           <figure data-aos="fade-right" data-aos-duration="2000">
@@ -13,7 +13,7 @@ const Delivery = () => {
             data-aos-duration="2000"
             className="card-body"
           >
-            <h2 className=" select-none text-2xl lg:text-4xl font-semibold mb-6">
+            <h2 className=" text-gray-800 select-none text-2xl lg:text-4xl font-semibold mb-6">
               Enjoy Our Food in 3 Easy Steps
             </h2>
             <div>
@@ -24,7 +24,7 @@ const Delivery = () => {
                   width={40}
                   height={40}
                 />
-                <h1 className=" select-none text-lg font-semibold  ml-3">
+                <h1 className=" text-gray-800 select-none text-lg font-semibold  ml-3">
                   Choose Food Online
                 </h1>
               </div>
@@ -35,7 +35,7 @@ const Delivery = () => {
                   width={40}
                   height={40}
                 />
-                <h1 className=" select-none text-lg font-semibold  ml-3">
+                <h1 className=" text-gray-800 select-none text-lg font-semibold  ml-3">
                   Choose Delivery Time
                 </h1>
               </div>
@@ -46,7 +46,7 @@ const Delivery = () => {
                   width={40}
                   height={40}
                 />
-                <h1 className=" select-none text-lg font-semibold  ml-3">
+                <h1 className=" text-gray-800 select-none text-lg font-semibold  ml-3">
                   Enjoy Our Food
                 </h1>
               </div>

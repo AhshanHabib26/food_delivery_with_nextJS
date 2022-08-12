@@ -50,7 +50,7 @@ const Filtar = () => {
         Our Best Food Collection
       </h1>
       <div>
-        <div className=" mx-5  grid grid-cols-2 md:grid-cols-3 gap-5 lg:grid-cols-4 max-w-5xl lg:mx-auto">
+        <div className=" mx-5 pb-8  grid grid-cols-2 md:grid-cols-3 gap-5 lg:grid-cols-4 max-w-5xl lg:mx-auto">
           {data.map((curElm) => {
             return (
               <div
