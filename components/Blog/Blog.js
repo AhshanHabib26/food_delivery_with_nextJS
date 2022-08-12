@@ -3,7 +3,7 @@ import Styles from '../../styles/Blog.module.css'
 
 const Blog = () => {
   return (
-    <div id="blogs" className=" mb-14 bg-base-100">
+    <div id="blogs" className=" mb-14">
       <h1 className=" text-3xl text-gray-800 text-center my-10 font-semibold">
         Recent Blogs
       </h1>
